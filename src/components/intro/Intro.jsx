@@ -28,9 +28,8 @@ const Intro = () => {
               <small>3+ Completed Projects</small>
             </article>
           </div>
-          <p>I have spent the last several months immersing myself in learning a diverse range of technologies, including HTML, CSS, JavaScript, React.js, Node.js, Express.js, SQL,mongoDB,Python,C,C++ My learning journey has been guided by excellent mentors at GUVI Geeks Network and IITM - Research Park.
-
-Moreover, despite the inherent challenges of learning while taking care of children, the experience has honed my ability to work efficiently, stay productive, and respond swiftly even in high-pressure situations—an invaluable skill in the dynamic tech industry.</p>
+          <p>I'm a passionate web developer dedicated to crafting user-friendly, high-performance websites. With a strong foundation in both front-end and back-end technologies .I have spent the last several months immersing myself in learning a diverse range of technologies, including HTML, CSS, JavaScript, React.js, Node.js, Express.js, SQL,mongoDB,Python,C,C++ My learning journey has been guided by excellent mentors at GUVI Geeks Network and IITM - Research Park.
+</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
