@@ -21,33 +21,14 @@ const Portfolio = () => {
       github: 'https://github.com/Ajith31kumar/Diary-Manager-Frondend.git',
     },
     {
-      id: 2,
-      title: 'Shopping Cart',
-      img: IMG4,
-      description:
-        'Shopping Cart app that provides information about available products and their details',
-      technologies: 'React | Redux',
-      link: 'https://stellular-salamander-a47605.netlify.app/',
-      github: 'https://github.com/Ajith31kumar/Redux-Task.git',
-    },
-    {
-      id: 3,
-      title: 'To-Do App',
-      img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'React | NodeJs',
-      link: 'https://tangerine-lily-6ab678.netlify.app/',
-      github: 'https://github.com/Ajith31kumar/Todo-list.git',
-    },
-    {
       id: 4,
       title: 'Axios-Crud',
       img: IMG3,
       description:
         'The Axios CRUD in React empowers developers to seamlessly integrate Create, Read, Update, and Delete (CRUD) functionality into their applications. ',
-      technologies: 'React | Axios',
-      link: 'https://amazing-begonia-ea2240.netlify.app/',
-      github: 'https://github.com/Ajith31kumar/Axios-Task.git',
+      technologies: 'ReactJs,NodeJs,MongoDB,Express',
+      link: 'https://aesthetic-gumdrop-5069c1.netlify.app/',
+      github: 'https://github.com/Ajith31kumar/curd-frondend.git',
     },
     {
       id: 5,
@@ -59,6 +40,28 @@ const Portfolio = () => {
       link: 'https://euphonious-lily-ef59df.netlify.app/',
       github: 'https://github.com/Ajith31kumar/URL-FE.git',
     },
+    {
+      id: 2,
+      title: 'Shopping Cart',
+      img: IMG4,
+      description:
+        'Shopping Cart app that provides information about available products and their details',
+      technologies: 'React | Redux',
+      link: 'https://stellular-salamander-a47605.netlify.app/',
+      github: 'https://github.com/Ajith31kumar/Redux-Task.git',
+    },
+  
+    {
+      id: 3,
+      title: 'To-Do App',
+      img: IMG2,
+      description: 'User friendly app to plan your day and manage tasks',
+      technologies: 'React | NodeJs',
+      link: 'https://tangerine-lily-6ab678.netlify.app/',
+      github: 'https://github.com/Ajith31kumar/Todo-list.git',
+    },
+  
+  
     {
       id: 6,
       title: 'Books Library',
