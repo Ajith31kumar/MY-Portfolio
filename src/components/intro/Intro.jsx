@@ -25,7 +25,7 @@ const Intro = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>3+ Completed Projects</small>
+              <small>4+ Completed Projects</small>
             </article>
           </div>
           <p>I'm a passionate web developer dedicated to crafting user-friendly, high-performance websites. With a strong foundation in both front-end and back-end technologies .I have spent the last several months immersing myself in learning a diverse range of technologies, including HTML, CSS, JavaScript, React.js, Node.js, Express.js, SQL,mongoDB,Python,C,C++ My learning journey has been guided by excellent mentors at GUVI Geeks Network and IITM - Research Park.
