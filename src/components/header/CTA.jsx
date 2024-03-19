@@ -1,12 +1,19 @@
 import React from 'react';
-import CV from '../../assets/My Resume.pdf';
+import CV from '../../assets/Ajith Kumar K CV Resume .pdf'; // Adjust the file path as necessary
 
 const CTA = () => {
+  const viewResume = () => {
+    window.open(CV, '_blank');
+  };
+
   return (
     <div className="cta">
-      <a href={CV} download className="btn">
+      {/* <a href={CV} download className="btn">
         Download CV
-      </a>
+      </a> */}
+      <button onClick={viewResume} className="btn btn-primary">
+        View Resume
+      </button>
       <a href="#contact" className="btn btn-primary">
         Let's talk
       </a>
@@ -15,28 +22,3 @@ const CTA = () => {
 };
 
 export default CTA;
-
-
-
-// export default CTA;
-// import React from 'react';
-
-// const CTA = () => {
-//   const resumeLink = "https://drive.google.com/file/d/1oyWrQfeiYwnmXMCsDBhaQDF4GIWzT54n/view";
-
-//   return (
-//     <div className="cta">
-//       <p className="resume">
-//         <a className="simple-box" href={resumeLink} target="_blank" rel="noopener noreferrer">
-//           Download CV
-//         </a>
-//       </p>
-//       <a href="#contact" className="btn btn-primary">
-//         Let's talk
-//       </a>
-//     </div>
-//   );
-// };
-
-// export default CTA;
-
