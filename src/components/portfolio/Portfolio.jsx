@@ -47,8 +47,8 @@ const Portfolio = () => {
       description:
         "In today's digital age, a full-stack restaurant application brings dining convenience to the fingertips of customers. With an easy-to-use interface, patrons can browse menus, place orders, and book tables effortlessly. Meanwhile, restaurant owners gain operational efficiency through centralized management of menus, orders, and reservations. ",
       technologies: "Reactjs,Nodejs,Mongodb,Express ",
-      link: "https://stellular-salamander-a47605.netlify.app/",
-      github: "https://github.com/Ajith31kumar/Redux-Task.git",
+      link: "https://65f91d8b5073a4710a7f4703--quiet-zuccutto-22cc8f.netlify.app/",
+      github: "https://github.com/Ajith31kumar/Restaurant-frondend.git",
     },
 
     {
