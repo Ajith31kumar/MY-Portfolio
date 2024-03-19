@@ -8,9 +8,6 @@ const CTA = () => {
 
   return (
     <div className="cta">
-      {/* <a href={CV} download className="btn">
-        Download CV
-      </a> */}
       <button onClick={viewResume} className="btn btn-primary">
         View Resume
       </button>
