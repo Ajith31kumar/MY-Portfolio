@@ -3,7 +3,21 @@ import CV from '../../assets/Ajith Kumar K CV Resume .pdf'; // Adjust the file p
 
 const CTA = () => {
   const viewResume = () => {
-    window.open(CV, '_blank');
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+      // For mobile devices, create a download link
+      const link = document.createElement('a');
+      link.href = CV;
+      link.setAttribute('download', 'Ajith Kumar K CV Resume.pdf');
+      link.style.display = 'none'; // Hide the link
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } else {
+      // For non-mobile devices, open in a new tab
+      window.open(CV, '_blank');
+    }
   };
 
   return (
