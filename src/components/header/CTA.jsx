@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/Ajith Kumar K CV Resume .pdf'; // Adjust the file path as necessary
+import CV from '../../assets/Ajith Kumar CV Resume.pdf'; // Adjust the file path as necessary
 
 const CTA = () => {
   const viewResume = () => {
