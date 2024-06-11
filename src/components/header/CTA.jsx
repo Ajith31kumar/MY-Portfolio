@@ -1,9 +1,14 @@
 import React from 'react';
-import CV from '../../assets/Ajith Kumar CV Resume.pdf'; // Adjust the file path as necessary
+import CVResume from '../../assets/Ajith_Kumar_CV_Resume.pdf'; // Update the filename if needed
 
 const CTA = () => {
   const viewResume = () => {
-    window.open(CV, '_blank');
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = "/resume"; // Redirect to resume page
+    } else {
+      window.open(CVResume, '_blank'); // Open PDF in a new tab for non-mobile devices
+    }
   };
 
   return (

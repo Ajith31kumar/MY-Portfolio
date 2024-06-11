@@ -25,7 +25,7 @@ const Portfolio = () => {
       title: "Axios-Crud",
       img: IMG3,
       description:
-        "Axios, a popular HTTP client library, is instrumental in facilitating CRUD (Create, Read, Update, Delete) operations in web applications. Leveraging Axios simplifies the process of interacting with backend APIs. It enables developers to seamlessly send asynchronous requests to servers, perform CRUD actions, and handle responses. ",
+        "Axios, a popular HTTP client library, is instrumental in facilitating CRUD (Create, Read, Update, Delete) operations in web applications. Leveraging Axios simplifies the process of interacting with backend APIs. It enables developers to seamlessly send asynchronous requests to servers. ",
       technologies: "ReactJs,NodeJs,MongoDB,Express",
       link: "https://aesthetic-gumdrop-5069c1.netlify.app/",
       github: "https://github.com/Ajith31kumar/curd-frondend.git",
