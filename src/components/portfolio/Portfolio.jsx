@@ -15,7 +15,7 @@ const Portfolio = () => {
       title: "Diary Manager",
       img: IMG1,
       description:
-        "Diary Manager is a MERN stack application that allows users to create, organize, and manage their daily entries seamlessly.With a user-friendly interface, it provides efficient diary management, enabling users to reflect on and navigate through their personal experiences effortlessly. .",
+        "Diary Manager is a MERN stack application that allows users to create, organize, and manage their daily entries seamlessly.With a user-friendly interface, it provides efficient diary management, enabling users to reflect on and navigate through their personal experiences effortlessly.",
       technologies: "ReactJs,NodeJs,MongoDB,Express",
       link: "https://incredible-souffle-1f857e.netlify.app/",
       github: "https://github.com/Ajith31kumar/Diary-Manager-Frondend.git",
@@ -25,7 +25,7 @@ const Portfolio = () => {
       title: "Axios-Crud",
       img: IMG3,
       description:
-        "Axios, a popular HTTP client library, is instrumental in facilitating CRUD (Create, Read, Update, Delete) operations in web applications. Leveraging Axios simplifies the process of interacting with backend APIs. It enables developers to seamlessly send asynchronous requests to servers. ",
+        "Axios, a popular HTTP client library, is instrumental in facilitating CRUD (Create, Read, Update, Delete) operations in web applications. Leveraging Axios simplifies the process of interacting with backend APIs. ",
       technologies: "ReactJs,NodeJs,MongoDB,Express",
       link: "https://aesthetic-gumdrop-5069c1.netlify.app/",
       github: "https://github.com/Ajith31kumar/curd-frondend.git",
